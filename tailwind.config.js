@@ -10,8 +10,10 @@ export default {
         lightBlack: '#212121',
         lightGray: '#4a4a4a',
         lightGray2: '#9e9e9e',
+        lightGray3: '#ececec',
         lightPink: '#da1c5c',
-        darkBlack: '#333333'
+        darkBlack: '#333333',
+        coral: '#fbb9ad'
 
       },
       fontFamily: {
