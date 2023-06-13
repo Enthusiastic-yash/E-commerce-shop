@@ -13,7 +13,8 @@ export default {
         lightGray3: '#ececec',
         lightPink: '#da1c5c',
         darkBlack: '#333333',
-        coral: '#fbb9ad'
+        coral: '#fbb9ad',
+        darkCharCoal: '#080808'
 
       },
       fontFamily: {

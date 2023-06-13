@@ -32,7 +32,7 @@ const products = ref([
     <div class=" my-10 grid grid-cols-5 justify-items-center">
         <div class="flex flex-col" v-for="{ productName, productDescription } in products" key="product.id">
             <img :src="`src/assets/quickLinkImages/${productName}.png`" :alt="`${productName}`">
-            <p class=" flex justify-center font-semibold text-sm">{{ productDescription }}</p>
+            <p class=" flex justify-center font-semibold text-sm uppercase">{{ productDescription }}</p>
         </div>
 
     </div>
