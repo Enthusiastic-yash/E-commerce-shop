@@ -4,6 +4,8 @@ import QuickLink from "@/components/quickLink.vue"
 import HeadingWidgets from "@/components/headingWidgets.vue"
 import productSlider from "@/components/productSlider.vue"
 import Banner from "@/components/banner.vue"
+import Footer from "@/views/footer.vue"
+import FeatureBrand from "@/components/featureBrand.vue"
 import { ref } from "vue"
 const products = ref([
   {
@@ -84,7 +86,19 @@ const Brands = ref([
       <Banner></Banner>
       <!-- Brands slider -->
       <productSlider :products="Brands" class="pb-20"></productSlider>
+      <!-- Feature Brands -->
+      <HeadingWidgets>
+        <template #heading>
+          <h2>feature Brands</h2>
+        </template>
+        <template #content>
+          <p>show some love to your favourite labels</p>
+        </template>
+      </HeadingWidgets>
+      <FeatureBrand></FeatureBrand>
+      <!-- Footer -->
     </div>
+    <Footer></Footer>
   </main>
 </template>
 
