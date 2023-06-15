@@ -14,6 +14,7 @@ export default {
         lightPink: '#da1c5c',
         darkBlack: '#333333',
         coral: '#fbb9ad',
+        lightCoral: '#f9cec7',
         darkCharCoal: '#080808'
 
       },
