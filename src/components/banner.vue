@@ -21,7 +21,9 @@ onMounted(() => {
         <div class="w-auto   sm:w-4/5 m-auto bg-gradient-to-t from-lightCoral to-white rounded-full bg-blend-lighten ">
             <div class="flex flex-col justify-center">
                 <div class="flex  justify-evenly items-center py-5">
-                    <div id="lottie-container" class="h-20 md:h-28"></div>
+                    <KeepAlive>
+                        <div id="lottie-container" class="h-20 md:h-28"></div>
+                    </KeepAlive>
                     <h1 class=" text-base md:text-4xl font-extrabold ">Brands to Grab</h1>
                 </div>
             </div>

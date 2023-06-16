@@ -66,7 +66,7 @@ const Brands = ref([
 </script>
 
 <template>
-  <main class="pt-12 bg-lightGray3 ">
+  <main class="pt-12 bg-lightGray3  pb-32">
     <CarouselSlider />
     <div class="max-w-7xl m-auto">
       <!-- Quick links  -->
@@ -96,9 +96,8 @@ const Brands = ref([
         </template>
       </HeadingWidgets>
       <FeatureBrand></FeatureBrand>
-      <!-- Footer -->
     </div>
-    <Footer></Footer>
+
   </main>
 </template>
 
